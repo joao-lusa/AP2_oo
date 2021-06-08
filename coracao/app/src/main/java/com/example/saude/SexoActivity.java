@@ -39,7 +39,7 @@ public class SexoActivity extends AppCompatActivity {
         boolean checked = ((RadioButton) view).isChecked();
 
         switch (view.getId()) {
-            case R.id.Peso1:
+            case R.id.Sexo1:
                 if (checked) {
                     resultSexo = String.valueOf(1);
                 }
