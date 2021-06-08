@@ -95,12 +95,12 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/Btn3"
+        android:id="@+id/btn_peso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="confirmar"
+        android:layout_marginTop="32dp"
         android:onClick="Btn3"
+        android:text="confirmar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

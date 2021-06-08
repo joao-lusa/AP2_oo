@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Feminino c/ menos de 40 anos" />
+                android:text="Feminino com menos de 40 anos" />
 
             <Space
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Feminino c/ mais de 50 anos " />
+                android:text="Feminino com mais de 50 anos " />
 
             <Space
                 android:layout_width="match_parent"
@@ -95,12 +95,12 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/Btn2"
+            android:id="@+id/btn_sexo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="confirmar"
+            android:layout_marginTop="32dp"
             android:onClick="Btn2"
+            android:text="Proxima Pergunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -10,25 +10,13 @@ import android.widget.TextView;
 
 public class FinishActivity extends AppCompatActivity {
 
-    TextView test;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finish);
-
-
-    }
-    public void onClick(View view){
-
-        test = findViewById(R.id.teste);
-
-        Intent intentRecebe = getIntent();
-        Bundle parametros = intentRecebe.getExtras();
-
-        int resultIdade = parametros.getInt("Idade");
-
-        test.setText(resultIdade);
+        DataClass data = getIntent().getParcelableExtra("data");
+        TextView teste = findViewById(R.id.teste);
+        teste.setText(data.calcular());
 
     }
 }
