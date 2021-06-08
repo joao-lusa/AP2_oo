@@ -11,15 +11,18 @@
     android:layout_height="match_parent"
     tools:context=".FamiliaActivity">
 
-    <TextView
-        android:id="@+id/InfoFml"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Informe se alguem da sua família teve alguma doença"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/InfoFml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/fmlInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/radioGroup7"
@@ -37,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFml"
-            android:text="Nenhuma história conhecida de cardiopatia	" />
+            android:text="@string/fml1" />
 
         <Space
             android:layout_width="match_parent"
@@ -48,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFml"
-            android:text="1 parente c/ doença cardiaca e mais de 60 anos	" />
+            android:text="@string/fml2" />
 
         <Space
             android:layout_width="match_parent"
@@ -59,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFml"
-            android:text="2 parentes c/ doença cardiaca e mais de 60 anos	" />
+            android:text="@string/fml3" />
 
         <Space
             android:layout_width="match_parent"
@@ -70,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFml"
-            android:text="1 parente c/ doença cardiaca e menos de 60 anos	" />
+            android:text="@string/fml4" />
 
         <Space
             android:layout_width="match_parent"
@@ -81,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFml"
-            android:text="2 parente c/ doença cardiaca e menos de 60 anos	" />
+            android:text="@string/fml5" />
 
         <Space
             android:layout_width="match_parent"
@@ -92,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFml"
-            android:text="3 parente c/ doença cardiaca e menos de 60 anos	" />
+            android:text="@string/fml6" />
     </RadioGroup>
 
         <Button
@@ -100,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Proxima Pergunta"
+            android:text="@string/proxima_pergunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

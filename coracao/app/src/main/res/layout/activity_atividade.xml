@@ -15,8 +15,11 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="informe sobre atividade "
+        android:layout_marginTop="48dp"
+        android:text="@string/infoAtividade"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickAtividade"
-            android:text="Esforço profissional e recreativo intenso	" />
+            android:text="@string/ativiadade1" />
 
         <Space
             android:layout_width="match_parent"
@@ -48,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickAtividade"
-            android:text="Esforço profissional e recreativo moderado" />
+            android:text="@string/ativiadade2" />
 
         <Space
             android:layout_width="match_parent"
@@ -59,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickAtividade"
-            android:text="Trabalho sedentário e esforço recreativo intenso	" />
+            android:text="@string/ativiadade3" />
 
         <Space
             android:layout_width="match_parent"
@@ -70,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickAtividade"
-            android:text="Trabalho sedentário e esforço recreativo moderado	" />
+            android:text="@string/ativiadade4" />
 
         <Space
             android:layout_width="match_parent"
@@ -81,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickAtividade"
-            android:text="Trabalho sedentário e esforço recreativo leve	" />
+            android:text="@string/ativiadade5" />
 
         <Space
             android:layout_width="match_parent"
@@ -92,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickAtividade"
-            android:text="Ausência completa de qualquer exercício	" />
+            android:text="@string/ativiadade6" />
     </RadioGroup>
 
     <Button
@@ -100,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Proxima Pergunta"
+        android:text="@string/proxima_pergunta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

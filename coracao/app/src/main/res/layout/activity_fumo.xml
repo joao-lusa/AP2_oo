@@ -11,15 +11,18 @@
     android:layout_height="match_parent"
     tools:context=".FumoActivity">
 
-    <TextView
-        android:id="@+id/info_fumo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Informe se você fuma"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/info_fumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/infoFumo"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/radioGroup5"
@@ -38,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFumo"
-            android:text="Não fumante	" />
+            android:text="@string/fumo1" />
 
         <Space
             android:layout_width="match_parent"
@@ -49,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFumo"
-            android:text="Charuto e/ou cachimbo	" />
+            android:text="@string/fumo2" />
 
         <Space
             android:layout_width="match_parent"
@@ -60,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFumo"
-            android:text="10 cigarros ou menos por dia	" />
+            android:text="@string/fumo3" />
 
         <Space
             android:layout_width="match_parent"
@@ -71,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFumo"
-            android:text="11 a 20 cigarros por dia	" />
+            android:text="@string/fumo4" />
 
         <Space
             android:layout_width="match_parent"
@@ -82,7 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFumo"
-            android:text="21 a 30 cigarros por dia	" />
+            android:text="@string/fumo5" />
 
         <Space
             android:layout_width="match_parent"
@@ -93,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClickFumo"
-            android:text="mais de 31 cigarros por dia" />
+            android:text="@string/fumo6" />
 
     </RadioGroup>
 
@@ -102,7 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Confirmar"
+            android:text="@string/proxima_pergunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

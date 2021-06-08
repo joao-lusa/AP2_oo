@@ -15,7 +15,7 @@ public class FinishActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finish);
         DataClass data = getIntent().getParcelableExtra("data");
-        TextView teste = findViewById(R.id.teste);
+        TextView teste = findViewById(R.id.result_output);
         teste.setText(data.calcular());
 
     }

@@ -14,8 +14,11 @@
             android:id="@+id/InfoSexo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="sobre a seu sexo"
+            android:layout_marginTop="48dp"
+            android:text="@string/infoSexo"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -32,11 +35,11 @@
             app:layout_constraintTop_toBottomOf="@+id/InfoSexo">
 
             <RadioButton
-                android:id="@+id/Peso1"
+                android:id="@+id/Sexo1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Feminino com menos de 40 anos" />
+                android:text="@string/Sexo1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -47,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Feminino de 40 a 50 anos " />
+                android:text="@string/Sexo2" />
 
             <Space
                 android:layout_width="match_parent"
@@ -58,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Feminino com mais de 50 anos " />
+                android:text="@string/Sexo3" />
 
             <Space
                 android:layout_width="match_parent"
@@ -69,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Masculino " />
+                android:text="@string/Sexo4" />
 
             <Space
                 android:layout_width="match_parent"
@@ -80,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Masculino com baixa esrutura" />
+                android:text="@string/Sexo5" />
 
             <Space
                 android:layout_width="match_parent"
@@ -91,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClickSexo"
-                android:text="Masculino com baixa estrutura e calvo" />
+                android:text="@string/Sexo6" />
         </RadioGroup>
 
         <Button
@@ -100,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:onClick="Btn2"
-            android:text="Proxima Pergunta"
+            android:text="@string/proxima_pergunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

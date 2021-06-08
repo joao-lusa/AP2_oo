@@ -15,8 +15,11 @@
             android:id="@+id/InfoColesterol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="informe sobre seu colesterol"
+            android:layout_marginTop="48dp"
+            android:text="@string/infoColesterol"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -37,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClickColesterol"
-                android:text="Abaixo de 180 ou a dieta não contém gorduras animais	" />
+                android:text="@string/colesterol1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -48,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClickColesterol"
-                android:text="De 181 a 205 ou a dieta contém 10% de gorduras animais	" />
+                android:text="@string/colesterol2" />
 
             <Space
                 android:layout_width="match_parent"
@@ -59,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClickColesterol"
-                android:text="De 206 a 230 ou a dieta contém 20% de gorduras animais	" />
+                android:text="@string/colesterol3" />
 
             <Space
                 android:layout_width="match_parent"
@@ -70,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClickColesterol"
-                android:text="De 231 a 255 ou a dieta contém 30% de gorduras animais	" />
+                android:text="@string/colesterol4" />
 
             <Space
                 android:layout_width="match_parent"
@@ -81,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClickColesterol"
-                android:text="De 256 a 280 ou a dieta contém 40% de gorduras animais	" />
+                android:text="@string/colesterol5" />
 
             <Space
                 android:layout_width="match_parent"
@@ -92,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClickColesterol"
-                android:text="Acima de 281 ou a dieta contém 50% de gorduras animais	" />
+                android:text="@string/colesterol6" />
 
         </RadioGroup>
 
@@ -101,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Proxima Pergunta"
+            android:text="@string/proxima_pergunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
