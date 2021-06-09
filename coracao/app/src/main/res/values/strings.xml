@@ -3,10 +3,10 @@
 
     <string name="main">AVALIAÇÃO DO RISCO CARDÍACO</string>
 
-    <string name="txt_header">Descubra se voce tem chance de ter um infarto</string>
     <string name="txt_info">Esta avaliação tem o objetivo de estimar seu risco cardíaco, não substituindo uma avaliação médica. Caso o resultado apresente algum risco, aconselhamos que procure um médico para aconselhamento. Lembre-se que a prevenção e o diagnostico precoce podem salvar sua vida.</string>
     <string name="txt_result">Resultado</string>
     <string name="txt_thanks">Obrigado(a) por participar!</string>
+    <string name="o_o">0</string>
 
     <string name="txt_r1">1 - Sem risco - de 6 a 11</string>
     <string name="txt_r2">2 - Risco abaixo da média - de 12 a 17</string>
@@ -27,7 +27,7 @@
     <string name="idade6">Tenho mais de 61 anos.</string>
 
     <!--Sexo-->
-    <string name="infoSexo">sobre a seu sexo</string>
+    <string name="infoSexo">Sobre a seu sexo:</string>
     <string name="Sexo1">Feminino com menos de 40 anos</string>
     <string name="Sexo2">Feminino de 40 a 50 anos </string>
     <string name="Sexo3">Feminino com mais de 50 anos </string>
@@ -36,58 +36,58 @@
     <string name="Sexo6">Masculino com baixa estrutura e calvo</string>
 
     <!--Peso-->
-    <string name="infoPeso">sobre o seu peso </string>
-    <string name="peso1">Inferior a 2,3Kg do peso normal	</string>
-    <string name="peso2">Menos de 2,3 a mais de 2,3Kg do peso normal	</string>
-    <string name="peso3">De 2,4 a 9,0Kg acima do peso normal	</string>
-    <string name="peso4">De 9,1 a 15,9Kg acima do peso normal	</string>
-    <string name="peso5">De 16 a 22,9Kg acima do peso normal	</string>
-    <string name="peso6">Mais de 23Kg acima do peso normal	</string>
+    <string name="infoPeso">Sobre o seu peso:</string>
+    <string name="peso1">Inferior a 2,3Kg do peso normal</string>
+    <string name="peso2">Menos de 2,3 a mais de 2,3Kg do peso normal</string>
+    <string name="peso3">De 2,4 a 9,0Kg acima do peso normal</string>
+    <string name="peso4">De 9,1 a 15,9Kg acima do peso normal</string>
+    <string name="peso5">De 16 a 22,9Kg acima do peso normal</string>
+    <string name="peso6">Mais de 23Kg acima do peso normal</string>
 
     <!--atividade-->
-    <string name="infoAtividade">informe sobre atividade </string>
-    <string name="ativiadade1">Esforço profissional e recreativo intenso	</string>
+    <string name="infoAtividade">Informe sobre atividade física:</string>
+    <string name="ativiadade1">Esforço profissional e recreativo intenso</string>
     <string name="ativiadade2">Esforço profissional e recreativo moderado</string>
-    <string name="ativiadade3">Trabalho sedentário e esforço recreativo intenso	</string>
-    <string name="ativiadade4">Trabalho sedentário e esforço recreativo moderado	</string>
-    <string name="ativiadade5">Trabalho sedentário e esforço recreativo leve	</string>
-    <string name="ativiadade6">Ausência completa de qualquer exercício	</string>
+    <string name="ativiadade3">Trabalho sedentário e esforço recreativo intenso</string>
+    <string name="ativiadade4">Trabalho sedentário e esforço recreativo moderado</string>
+    <string name="ativiadade5">Trabalho sedentário e esforço recreativo leve</string>
+    <string name="ativiadade6">Ausência completa de qualquer exercício</string>
 
     <!--fumo-->
-    <string name="infoFumo">Informe se você fuma</string>
-    <string name="fumo1">Não fumante	</string>
-    <string name="fumo2">Charuto e/ou cachimbo	</string>
-    <string name="fumo3">10 cigarros ou menos por dia	</string>
-    <string name="fumo4">11 a 20 cigarros por dia	</string>
-    <string name="fumo5">21 a 30 cigarros por dia	</string>
-    <string name="fumo6">mais de 31 cigarros por dia</string>
+    <string name="infoFumo">Informe se você fuma:</string>
+    <string name="fumo1">Não fumante</string>
+    <string name="fumo2">Charuto e/ou cachimbo</string>
+    <string name="fumo3">10 cigarros ou menos por dia</string>
+    <string name="fumo4">11 a 20 cigarros por dia</string>
+    <string name="fumo5">21 a 30 cigarros por dia</string>
+    <string name="fumo6">Mais de 31 cigarros por dia</string>
 
     <!--pressão-->
-    <string name="infoPressao">informe como esta susa pressao</string>
-    <string name="pressao1">Sistólica de 100 a 119 mmHg	</string>
-    <string name="pressao2">Sistólica de 120 a 139 mmHg	</string>
-    <string name="pressao3">Sistólica de 140 a 159 mmHg	</string>
-    <string name="pressao4">Sistólica de 160 a 179 mmHg	</string>
-    <string name="pressao5">Sistólica de 180 a 199 mmHg	</string>
-    <string name="pressao6">Sistólica de 200 mmHg ou mais	</string>
+    <string name="infoPressao">Informe como esta sua pressão arterial:</string>
+    <string name="pressao1">Sistólica de 100 a 119 mmHg</string>
+    <string name="pressao2">Sistólica de 120 a 139 mmHg</string>
+    <string name="pressao3">Sistólica de 140 a 159 mmHg</string>
+    <string name="pressao4">Sistólica de 160 a 179 mmHg</string>
+    <string name="pressao5">Sistólica de 180 a 199 mmHg</string>
+    <string name="pressao6">Sistólica de 200 mmHg ou mais</string>
 
     <!--doença na familia-->
-    <string name="fmlInfo">Informe se alguem da sua família teve alguma doença</string>
-    <string name="fml1">Nenhuma história conhecida de cardiopatia	</string>
-    <string name="fml2">1 parente c/ doença cardiaca e mais de 60 anos	</string>
-    <string name="fml3">2 parentes c/ doença cardiaca e mais de 60 anos	</string>
-    <string name="fml4">1 parente c/ doença cardiaca e menos de 60 anos	</string>
-    <string name="fml5">2 parente c/ doença cardiaca e menos de 60 anos	</string>
-    <string name="fml6">3 parente c/ doença cardiaca e menos de 60 anos	</string>
+    <string name="fmlInfo">Informe se alguem de sua família tem histórico de doença cardíaca:</string>
+    <string name="fml1">Nenhuma história conhecida de cardiopatia</string>
+    <string name="fml2">1 parente c/ doença cardiaca e mais de 60 anos</string>
+    <string name="fml3">2 parentes c/ doença cardiaca e mais de 60 anos</string>
+    <string name="fml4">1 parente c/ doença cardiaca e menos de 60 anos</string>
+    <string name="fml5">2 parente c/ doença cardiaca e menos de 60 anos</string>
+    <string name="fml6">3 parente c/ doença cardiaca e menos de 60 anos</string>
 
     <!--colesterol-->
-    <string name="infoColesterol">informe sobre seu colesterol</string>
-    <string name="colesterol1">Abaixo de 180 ou a dieta não contém gorduras animais	</string>
-    <string name="colesterol2">De 181 a 205 ou a dieta contém 10% de gorduras animais	</string>
-    <string name="colesterol3">De 206 a 230 ou a dieta contém 20% de gorduras animais	</string>
-    <string name="colesterol4">De 231 a 255 ou a dieta contém 30% de gorduras animais	</string>
-    <string name="colesterol5">De 256 a 280 ou a dieta contém 40% de gorduras animais	</string>
-    <string name="colesterol6">Acima de 281 ou a dieta contém 50% de gorduras animais	</string>
+    <string name="infoColesterol">Informe sobre seu colesterol:</string>
+    <string name="colesterol1">Abaixo de 180 ou a dieta não contém gorduras animais</string>
+    <string name="colesterol2">De 181 a 205 ou a dieta contém 10% de gorduras animais</string>
+    <string name="colesterol3">De 206 a 230 ou a dieta contém 20% de gorduras animais</string>
+    <string name="colesterol4">De 231 a 255 ou a dieta contém 30% de gorduras animais</string>
+    <string name="colesterol5">De 256 a 280 ou a dieta contém 40% de gorduras animais</string>
+    <string name="colesterol6">Acima de 281 ou a dieta contém 50% de gorduras animais</string>
 
 
 </resources>

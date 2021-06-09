@@ -13,9 +13,12 @@
 
         <TextView
             android:id="@+id/InfoPressao"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="48dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
             android:text="@string/infoPressao"
             android:textColor="#000000"
             android:textSize="16sp"
@@ -103,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Confirmar"
+            android:text="@string/proxima_pergunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
